@@ -187,8 +187,8 @@
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Name>${project.artifactId}</Bundle-Name>
                         <Export-Package>
-			    org.apache.axiom.*; version="${exp.pkg.version.axiom}";-split-package:=merge-first,
-			    org.jaxen.*; version=${jaxen.version},
+                            org.apache.axiom.*; version="${exp.pkg.version.axiom}";-split-package:=merge-first,
+                            org.jaxen.*; version=${jaxen.version},
                             javax.mail;version=${javax.mail.version};-split-package:=merge-first,
                             javax.mail.event;version=${javax.mail.version};-split-package:=merge-first,
                             javax.mail.internet;version=${javax.mail.version};-split-package:=merge-first,
@@ -223,6 +223,7 @@
                             javax.xml.validation,
                             javax.xml.xpath,
                             javax.xml,
+                            javax.activation,
                             *;resolution:=optional
                         </Import-Package>
                         <Private-Package>
